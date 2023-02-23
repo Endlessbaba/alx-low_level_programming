@@ -2,14 +2,15 @@
 
 /**
  * _isupper - Checks for uppercase characters.
- * @c: The character to be checked.
+ * @x: The character to be checked.
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-int _isupper(int c)
+int _isupper(int x)
 {
-if (c >= 'A' && c <= 'Z')
+if (x >= 65 && x <= 90)
+{
 return (1);
-else
+}
 return (0);
 }
