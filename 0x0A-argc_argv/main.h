@@ -3,5 +3,6 @@
 
 int _putchar(char c);
 int _atio(char *s);
+int main(int argc, char *argv[]);
 
 #endif
