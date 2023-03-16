@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * *string_nconcat - concatenates n bytes of a string to
@@ -45,4 +46,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (s);
 }
-
